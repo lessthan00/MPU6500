@@ -521,7 +521,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:MPU-6500"
+		(symbol "MPU-6500_1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -536,7 +536,7 @@
 					)
 				)
 			)
-			(property "Value" "MPU-6050"
+			(property "Value" "MPU-6500"
 				(at 7.62 -13.97 0)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MPU-6500_0_1"
+			(symbol "MPU-6500_1_0_1"
 				(rectangle
 					(start -12.7 12.7)
 					(end 12.7 -12.7)
@@ -593,7 +593,7 @@
 					)
 				)
 			)
-			(symbol "MPU-6500_1_1"
+			(symbol "MPU-6500_1_1_1"
 				(pin passive line
 					(at -17.78 7.62 0)
 					(length 5.08)
@@ -3356,6 +3356,146 @@
 		)
 	)
 	(symbol
+		(lib_name "MPU-6500_1")
+		(lib_id "Library:MPU-6500")
+		(at 172.72 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01ed01e-5c53-4696-87db-2cd829518761")
+		(property "Reference" "U1"
+			(at 174.8633 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPU-6500"
+			(at 174.8633 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm_ThermalVias"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jlc-smt.com/lcsc/detail?componentCode=C24112"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "姿态传感器/陀螺仪"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "6dff0d3a-37f4-463e-ae6e-7ceae5dbf3af")
+		)
+		(pin "16"
+			(uuid "1d6a9d8d-796c-49c9-8882-389e823b853b")
+		)
+		(pin "3"
+			(uuid "83e4e0a5-2a26-4642-bd19-e5bde8424385")
+		)
+		(pin "17"
+			(uuid "6c60aeda-dda5-4d8a-94e5-9bd78723ae33")
+		)
+		(pin "20"
+			(uuid "a9d9730c-5adf-47e1-915a-c5c8b4f831be")
+		)
+		(pin "22"
+			(uuid "e71198b7-c668-4cfb-8d1f-942cd58d7777")
+		)
+		(pin "24"
+			(uuid "83bbc600-16d1-4620-818b-51bd1a8756b7")
+		)
+		(pin "11"
+			(uuid "ffc6bf08-72a7-4d34-9e71-a89c72508748")
+		)
+		(pin "8"
+			(uuid "848f6a8c-6cdb-48cb-82c0-07204fc8595e")
+		)
+		(pin "23"
+			(uuid "fc340b7f-2689-4b9a-a2ea-aa37b592929b")
+		)
+		(pin "18"
+			(uuid "685a9851-4915-4853-be82-442483a036e0")
+		)
+		(pin "25"
+			(uuid "6fa1e87d-a2ad-45e3-99ff-33b20e9eba7a")
+		)
+		(pin "13"
+			(uuid "336d8b1a-5adc-4991-a918-8d442745eab9")
+		)
+		(pin "1"
+			(uuid "c53eaa71-5bd7-4e5b-8da2-831b33235f9f")
+		)
+		(pin "14"
+			(uuid "2e49c7ca-54eb-4bb6-8919-48c431c2ac98")
+		)
+		(pin "15"
+			(uuid "5022c594-320c-4a7e-9c7b-01a7e22dabf6")
+		)
+		(pin "2"
+			(uuid "9a54c71a-1da1-41f0-8f51-44133ba6079e")
+		)
+		(pin "7"
+			(uuid "dac9271e-3b7d-46ae-a6c3-b6d0174cf075")
+		)
+		(pin "12"
+			(uuid "eba39c66-0af4-4f76-a6fb-4af553e4d334")
+		)
+		(pin "10"
+			(uuid "60af7080-b6dc-4893-b460-f4bf40551e71")
+		)
+		(pin "19"
+			(uuid "15f35dcb-c88c-4117-a319-3a90379af522")
+		)
+		(pin "4"
+			(uuid "a9d0e248-956a-423a-8f52-7fd2733eca61")
+		)
+		(pin "5"
+			(uuid "0ecd23a4-b0c9-461d-9133-6bd122f62546")
+		)
+		(pin "21"
+			(uuid "b3a5d70f-2f00-4056-973d-4486d281193c")
+		)
+		(pin "6"
+			(uuid "8667eea5-4fe0-4bbf-b6f3-6ed43b7dfc07")
+		)
+		(instances
+			(project ""
+				(path "/2df63883-4c1b-42e6-b3e7-ae745b4f00b6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 100.33 73.66 180)
 		(unit 1)
@@ -3491,145 +3631,6 @@
 			(project "mpu6050"
 				(path "/2df63883-4c1b-42e6-b3e7-ae745b4f00b6"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:MPU-6500")
-		(at 172.72 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dea77b2b-7983-4a41-9978-334ccc2cc2fa")
-		(property "Reference" "U1"
-			(at 174.8633 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPU-6050"
-			(at 174.8633 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm"
-			(at 172.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jlc-smt.com/lcsc/detail?componentCode=C24112"
-			(at 172.72 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "姿态传感器/陀螺仪"
-			(at 172.72 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "22"
-			(uuid "68e292b8-4946-49b5-8ed4-f3ba62aa48b7")
-		)
-		(pin "23"
-			(uuid "9940cff6-a9e3-40a5-a421-8c4f0c9fca04")
-		)
-		(pin "24"
-			(uuid "d5454064-9fab-4f2b-ac9f-41d85deca04d")
-		)
-		(pin "14"
-			(uuid "e0cf062e-4e0c-4c52-9f49-ae9e6da794ac")
-		)
-		(pin "18"
-			(uuid "d3c27411-bee5-4ea5-a5a6-0d85c9018a38")
-		)
-		(pin "25"
-			(uuid "a4e73c02-4918-406c-b73c-07ad9f5cdff6")
-		)
-		(pin "20"
-			(uuid "f7f46637-d8a2-409d-ba78-5b121d59d90f")
-		)
-		(pin "1"
-			(uuid "03bf5fe5-4b8a-41cd-b148-882cac4764a8")
-		)
-		(pin "8"
-			(uuid "c9b41d6f-f670-4d9f-be96-19e45eaa4d57")
-		)
-		(pin "13"
-			(uuid "f2d342fb-e744-4f6e-8abb-1faa903e7016")
-		)
-		(pin "9"
-			(uuid "7db6ec4a-dd0f-4f2f-8505-e6919fc563e4")
-		)
-		(pin "19"
-			(uuid "902a0cb7-cad9-446f-bc14-d48488851862")
-		)
-		(pin "11"
-			(uuid "b98c1e15-5d00-4049-9433-aec56228f463")
-		)
-		(pin "15"
-			(uuid "f44fff7c-3d0b-4e9a-b4bd-dbd28804833e")
-		)
-		(pin "7"
-			(uuid "47824da7-d1b0-43ae-975d-9f7af809249a")
-		)
-		(pin "16"
-			(uuid "c1c639f2-681c-4ea8-ac89-294579d096d2")
-		)
-		(pin "5"
-			(uuid "5fb99bc1-ccbf-4f20-b2fb-03630634a0c3")
-		)
-		(pin "6"
-			(uuid "42a88772-c918-4c8f-b33c-689528b1b2df")
-		)
-		(pin "10"
-			(uuid "dbe23041-07ce-4c37-a793-b4b863c513dd")
-		)
-		(pin "4"
-			(uuid "a2bf6dfe-587c-469a-b432-9b68ad3f854b")
-		)
-		(pin "2"
-			(uuid "7011a38e-87dd-4248-9074-03d5c96c6dea")
-		)
-		(pin "12"
-			(uuid "c8687309-c689-47d2-9b1f-0a50fdea191a")
-		)
-		(pin "17"
-			(uuid "9e3d3dab-b976-44c5-8278-0d440409ce9d")
-		)
-		(pin "3"
-			(uuid "b3f9be16-d42f-4765-a333-7f199b7e8d81")
-		)
-		(pin "21"
-			(uuid "c3aabe55-05bd-46ed-86f3-84ab727a789d")
-		)
-		(instances
-			(project ""
-				(path "/2df63883-4c1b-42e6-b3e7-ae745b4f00b6"
-					(reference "U1")
 					(unit 1)
 				)
 			)

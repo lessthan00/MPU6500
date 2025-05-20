@@ -695,7 +695,7 @@
 				)
 			)
 		)
-		(property "Value" "MPU-6050"
+		(property "Value" "MPU-6500"
 			(at 7.62 -13.97 0)
 			(effects
 				(font
